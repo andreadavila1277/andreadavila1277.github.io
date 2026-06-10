@@ -1,62 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Eventos</title>
 
 <link rel="stylesheet" href="css/miestilo.css">
+
 </head>
 
 <body>
 
 <header>
-<nav class="navbar">
-    <h1>Eventos</h1>
-
-    <ul class="menu">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="ods.html">ODS</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="unete.html">Únete</a></li>
-        <li><a href="eventos.html">Eventos</a></li>
-    </ul>
+<nav>
+<a href="index.html">Inicio</a>
+<a href="ods.html">ODS</a>
+<a href="blog.html">Blog</a>
+<a href="unete.html">Únete</a>
+<a href="eventos.html">Eventos</a>
 </nav>
 </header>
 
-<section class="contenido">
+<div class="container">
 
-<h2>Calendario de actividades</h2>
+<div class="card">
 
-<table>
+<h1>Calendario de Actividades</h1>
 
-<tr>
-    <th>Fecha</th>
-    <th>Actividad</th>
-</tr>
+<ul>
+<li>15 Septiembre - Campaña de concientización</li>
+<li>30 Septiembre - Limpieza de cuerpos de agua</li>
+<li>15 Octubre - Conferencia sobre sostenibilidad</li>
+</ul>
 
-<tr>
-    <td>10 Junio</td>
-    <td>Campaña de reciclaje</td>
-</tr>
+</div>
 
-<tr>
-    <td>15 Junio</td>
-    <td>Limpieza de áreas verdes</td>
-</tr>
+<div class="card galeria">
 
-<tr>
-    <td>20 Junio</td>
-    <td>Conferencia ambiental</td>
-</tr>
+<h2>Galería</h2>
 
-</table>
+<img id="galeria"
+src="img/evento1.jpg">
 
-</section>
+<div class="botones">
 
-<footer>
-    <p>© 2026 Proyecto Contaminación</p>
-</footer>
+<button onclick="anterior()">Anterior</button>
+
+<button onclick="siguiente()">Siguiente</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
